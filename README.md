@@ -20,4 +20,4 @@ Set the custom domain to:
 getremake.app
 ```
 
-The SEO/social URLs currently point to the GitHub Pages repository URL. When `getremake.app` is live, update `index.html`, `robots.txt`, and `sitemap.xml` to use the custom domain.
+The SEO/social URLs point to the custom domain `getremake.app`.
