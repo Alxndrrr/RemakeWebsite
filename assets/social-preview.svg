@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160313"/>
+      <stop offset="0.48" stop-color="#22103d"/>
+      <stop offset="1" stop-color="#121023"/>
+    </linearGradient>
+    <radialGradient id="pink" cx="18%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#ff0073" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ff0073" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purple" cx="82%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#5200ff" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#5200ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="iconClip">
+      <rect x="94" y="162" width="184" height="184" rx="54"/>
+    </clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#pink)"/>
+  <rect width="1200" height="630" fill="url(#purple)"/>
+  <g opacity="0.08">
+    <path d="M0 105H1200M0 210H1200M0 315H1200M0 420H1200M0 525H1200" stroke="#ffffff"/>
+    <path d="M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630" stroke="#ffffff"/>
+  </g>
+  <g filter="url(#shadow)">
+    <image href="remake-app-icon.png" x="94" y="162" width="184" height="184" clip-path="url(#iconClip)" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+  <text x="320" y="250" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="104" font-weight="800" letter-spacing="0">Remake</text>
+  <text x="326" y="318" fill="rgba(255,255,255,0.74)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="32" font-weight="500">Track movies, TV shows, episodes, ratings,</text>
+  <text x="326" y="363" fill="rgba(255,255,255,0.74)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="32" font-weight="500">and everything you want to watch next.</text>
+  <rect x="326" y="407" width="318" height="52" rx="26" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="352" y="442" fill="rgba(255,255,255,0.84)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="20" font-weight="800" letter-spacing="1.8">COMING SOON FOR IPHONE</text>
+</svg>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://getremake.app/sitemap.xml
+Sitemap: https://alxndrrr.github.io/RemakeWebsite/sitemap.xml
